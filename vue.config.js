@@ -1,3 +1,12 @@
+// vue.config.js
+const path = require('path');
+
 module.exports = {
-  lintOnSave: false,
+  css: {
+    loaderOptions: {
+      sass: {
+        data: '@import "./src/assets/styles/_variables.scss";',
+      },
+    },
+  },
 };

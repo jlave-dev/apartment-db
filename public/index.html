@@ -1,17 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
-    <title>apartment-db</title>
-  </head>
-  <body>
-    <noscript>
-      <strong>We're sorry but apartment-db doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
-    </noscript>
-    <div id="app"></div>
-    <!-- built files will be auto injected -->
-  </body>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible"
+    content="IE=edge">
+  <meta name="viewport"
+    content="width=device-width,initial-scale=1.0">
+  <link rel="icon"
+    href="<%= BASE_URL %>favicon.ico">
+  <link rel="stylesheet"
+    href="https://cdn.materialdesignicons.com/3.6.95/css/materialdesignicons.min.css">
+  <title>apartment-db</title>
+</head>
+
+<body>
+  <noscript>
+    <strong>We're sorry but apartment-db doesn't work properly without JavaScript enabled. Please enable it to
+      continue.</strong>
+  </noscript>
+  <div id="app"></div>
+  <!-- built files will be auto injected -->
+  <script type="text/javascript"
+    src="https://maps.googleapis.com/maps/api/js?key=<%= VUE_APP_GOOGLE_PLACES_API_KEY %>&libraries=places"></script>
+</body>
+
 </html>
